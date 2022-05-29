@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> F8 - shop</title>
+        <meta charset="utf-8">
+       
+        <style>
+            html,body {
+                margin:0;
+
+            }
+            .header{
+                width:100%;
+                height:100vh;
+                background: url(https://www.google.com/search?q=girl+chibi&tbm=isch&source=iu&ictx=1&vet=1&fir=-FpZ5r7VZdR7vM%252C6z6SeGd6J3g4RM%252C_%253BFmgyVOgji3tGZM%252Ct0qVRSNqQ-VDgM%252C_%253BJr3XwaEVIUxwJM%252Cw7IAvtUMlw-ADM%252C_%253B2uVlHY3bzrj9mM%252CB5FVfrikSqeh7M%252C_%253BlbuK4GyTjUP_iM%252CATOM5Wb8QEWqbM%252C_%253BIrV5Qcdn8AhtmM%252Cu9fONITeQHSwSM%252C_%253B4HPpRP13HSHoYM%252CcNP_R6eGbahEuM%252C_%253BhuaOP3vpKX1bTM%252Cu9fONITeQHSwSM%252C_%253BBS4fIR6MCBkNmM%252CBBhQyNbp3i9dFM%252C_%253Bpe6hmaesNRCXyM%252C_64qhp8giCjDIM%252C_%253BDzSTa2aErJZXTM%252CBBhQyNbp3i9dFM%252C_%253BL2dDnLnbzcEZ4M%252Cw8f5xAkKWtto0M%252C_%253BLMs48WSOHmxv2M%252CEZYavvbne42HQM%252C_%253Be11sAgRIL7U9oM%252Ct0qVRSNqQ-VDgM%252C_%253B9IbKW1RRsVDa3M%252Cu9fONITeQHSwSM%252C_%253BSFQLDk25nt-RPM%252CJX0X5xcb8aDVIM%252C_%253BoK9BvKReypOO3M%252CjKt0ki99tltgHM%252C_&usg=AI4_-kRDdugl3JVqA8qqMSnUwm6Tvv8w4w&sa=X&ved=2ahUKEwjPo4zcw4T4AhUHnFYBHfvVDa0Q9QF6BAgDEAE#imgrc=FmgyVOgji3tGZM) no-repeat  center / contain;
+            }
+                /* background-color: #333;
+                background-image: linear-gradient(0,rgba(255,255,0,0.5),rgba(0,0,255,0.5))
+                url(https://www.google.com/search?q=bl+chibi&tbm=isch&source=iu&ictx=1&vet=1&fir=LxZJMamPR2eJzM%252CeWOwJg2Ftb1wfM%252C_%253BCLXOPmJa2aJ8cM%252CLtcOOV82Vv0oJM%252C_%253BX0x4-MV-3pA9WM%252Cb8MrgtO4CMKeOM%252C_%253BDcVV0Gyl6OfdVM%252CbGHBe9AhXmUiXM%252C_%253B6ey1vFk-V4lT5M%252CGo3pIncAhrADHM%252C_%253BA7Q8Hn---_m67M%252C9ZqyoEtC6VfkLM%252C_%253BvjSHXjsvtbS28M%252C5lzLUOmOX1Sa1M%252C_%253BPkYM8YvAfw7HeM%252CqbjDvgntmiD4yM%252C_&usg=AI4_-kQRklkkhwCOQAd_mfGRoSgrXWbfVg&sa=X&ved=2ahUKEwje3NCjwoT4AhUXO3AKHYN7Bp0Q9QF6BAgDEAE#imgrc=CLXOPmJa2aJ8cM);
+                background-size: 100%;
+                background-repeat: no-repeat;/*không đè ảnh*/
+                /* background-position: center;
+                background-size: contain;  */
+
+                /* background-size: 200px;
+                background-position: bottom right; */
+                /* canh hình trái phải */
+                /* background-size: contain; */
+                
+                /* contain là lấy chiều dài -dọc lớn nhất của ảnh không bị cắt xé*/
+                /* background-size: cover; */
+                /* cover chấp nhận che khuất */
+                /* border:20px dashed #ccc;
+                padding:20px;
+                box-sizing:border-box; */
+
+
+
+                /* background-origin:padding-box ; */
+                /* background-origin lớp đổ à tương tự background list */
+                /* vị trí của hình ảnh */
+                /* background-image: linear-gradient(90deg,#333,#ccc); phía sau có thể chèn ảnh */
+                /* tạo ra dãy màu chuyển từ 0 đến 360 */
+                /*background-image:url(https://www.google.com/search?q=bl+chibi&tbm=isch&source=iu&ictx=1&vet=1&fir=LxZJMamPR2eJzM%252CeWOwJg2Ftb1wfM%252C_%253BCLXOPmJa2aJ8cM%252CLtcOOV82Vv0oJM%252C_%253BX0x4-MV-3pA9WM%252Cb8MrgtO4CMKeOM%252C_%253BDcVV0Gyl6OfdVM%252CbGHBe9AhXmUiXM%252C_%253B6ey1vFk-V4lT5M%252CGo3pIncAhrADHM%252C_%253BA7Q8Hn---_m67M%252C9ZqyoEtC6VfkLM%252C_%253BvjSHXjsvtbS28M%252C5lzLUOmOX1Sa1M%252C_%253BPkYM8YvAfw7HeM%252CqbjDvgntmiD4yM%252C_&usg=AI4_-kQRklkkhwCOQAd_mfGRoSgrXWbfVg&sa=X&ved=2ahUKEwje3NCjwoT4AhUXO3AKHYN7Bp0Q9QF6BAgDEAE#imgrc=CLXOPmJa2aJ8cM);
+                background-size: 100px;*/
+                /* 100px là tuyệt đối 100% là tương đối auto là tự động */
+                /*background-repeat: no-repeat;
+                */
+            
+            
+           
+        </style>
+
+            
+    </head>
+
+    <body>
+        
+        <div class="header"></div>
+        
+          
+       </div>
+    </body>
+</html>
